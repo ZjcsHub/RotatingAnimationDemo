@@ -1,0 +1,6 @@
+framework module Pods_RotatingAnimationDemo_RotatingAnimationDemoUITests {
+  umbrella header "Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

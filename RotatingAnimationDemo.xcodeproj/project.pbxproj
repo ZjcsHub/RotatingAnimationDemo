@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AF9EB7B273A1C81001BDF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB7A273A1C81001BDF08 /* AppDelegate.swift */; };
+		4AF9EB7D273A1C81001BDF08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB7C273A1C81001BDF08 /* SceneDelegate.swift */; };
+		4AF9EB7F273A1C81001BDF08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB7E273A1C81001BDF08 /* ViewController.swift */; };
+		4AF9EB82273A1C82001BDF08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9EB80273A1C82001BDF08 /* Main.storyboard */; };
+		4AF9EB84273A1C8C001BDF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9EB83273A1C8C001BDF08 /* Assets.xcassets */; };
+		4AF9EB87273A1C8C001BDF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9EB85273A1C8C001BDF08 /* LaunchScreen.storyboard */; };
+		4AF9EB92273A1C8D001BDF08 /* RotatingAnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB91273A1C8D001BDF08 /* RotatingAnimationDemoTests.swift */; };
+		4AF9EB9C273A1C8D001BDF08 /* RotatingAnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB9B273A1C8D001BDF08 /* RotatingAnimationDemoUITests.swift */; };
+		4AF9EB9E273A1C8D001BDF08 /* RotatingAnimationDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB9D273A1C8D001BDF08 /* RotatingAnimationDemoUITestsLaunchTests.swift */; };
+		4AF9EBAB273A1DBC001BDF08 /* RotatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EBAA273A1DBC001BDF08 /* RotatingView.swift */; };
+		4AF9EBAD273A4B79001BDF08 /* GoalDisplayRotatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EBAC273A4B79001BDF08 /* GoalDisplayRotatView.swift */; };
+		686A777034E9482A74DB5980 /* Pods_RotatingAnimationDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371DB91B58C936226907D516 /* Pods_RotatingAnimationDemoTests.framework */; };
+		752DB13BAC2A993DD8D2332C /* Pods_RotatingAnimationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DB6D6D1D40408B975EE472 /* Pods_RotatingAnimationDemo.framework */; };
+		9AC4B6BAC9FEAD605274324B /* Pods_RotatingAnimationDemo_RotatingAnimationDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BEC8936D55F5A303330DAE /* Pods_RotatingAnimationDemo_RotatingAnimationDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AF9EB8E273A1C8D001BDF08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF9EB6F273A1C81001BDF08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF9EB76273A1C81001BDF08;
+			remoteInfo = RotatingAnimationDemo;
+		};
+		4AF9EB98273A1C8D001BDF08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF9EB6F273A1C81001BDF08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF9EB76273A1C81001BDF08;
+			remoteInfo = RotatingAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F87D65231B3685732BC1BA2 /* Pods-RotatingAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotatingAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-RotatingAnimationDemo/Pods-RotatingAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		371DB91B58C936226907D516 /* Pods_RotatingAnimationDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotatingAnimationDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF9EB77273A1C81001BDF08 /* RotatingAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF9EB7A273A1C81001BDF08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AF9EB7C273A1C81001BDF08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4AF9EB7E273A1C81001BDF08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AF9EB81273A1C82001BDF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AF9EB83273A1C8C001BDF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AF9EB86273A1C8C001BDF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AF9EB88273A1C8C001BDF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF9EB8D273A1C8D001BDF08 /* RotatingAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatingAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF9EB91273A1C8D001BDF08 /* RotatingAnimationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingAnimationDemoTests.swift; sourceTree = "<group>"; };
+		4AF9EB97273A1C8D001BDF08 /* RotatingAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotatingAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF9EB9B273A1C8D001BDF08 /* RotatingAnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingAnimationDemoUITests.swift; sourceTree = "<group>"; };
+		4AF9EB9D273A1C8D001BDF08 /* RotatingAnimationDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingAnimationDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4AF9EBAA273A1DBC001BDF08 /* RotatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingView.swift; sourceTree = "<group>"; };
+		4AF9EBAC273A4B79001BDF08 /* GoalDisplayRotatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDisplayRotatView.swift; sourceTree = "<group>"; };
+		61BEC8936D55F5A303330DAE /* Pods_RotatingAnimationDemo_RotatingAnimationDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotatingAnimationDemo_RotatingAnimationDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66828BD706171239E703C8E9 /* Pods-RotatingAnimationDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotatingAnimationDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RotatingAnimationDemoTests/Pods-RotatingAnimationDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F8DADC08B2C6DBA7D701EEF /* Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87EA69066BD5C3EB3977CEFB /* Pods-RotatingAnimationDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotatingAnimationDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RotatingAnimationDemoTests/Pods-RotatingAnimationDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFC43BD3C3B7A42B600245A7 /* Pods-RotatingAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotatingAnimationDemo.debug.xcconfig"; path = "Target Support Files/Pods-RotatingAnimationDemo/Pods-RotatingAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CE9B90799C4646D485DE0275 /* Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9DB6D6D1D40408B975EE472 /* Pods_RotatingAnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotatingAnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AF9EB74273A1C81001BDF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752DB13BAC2A993DD8D2332C /* Pods_RotatingAnimationDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF9EB8A273A1C8D001BDF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686A777034E9482A74DB5980 /* Pods_RotatingAnimationDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF9EB94273A1C8D001BDF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC4B6BAC9FEAD605274324B /* Pods_RotatingAnimationDemo_RotatingAnimationDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AF9EB6E273A1C80001BDF08 = {
+			isa = PBXGroup;
+			children = (
+				4AF9EB79273A1C81001BDF08 /* RotatingAnimationDemo */,
+				4AF9EB90273A1C8D001BDF08 /* RotatingAnimationDemoTests */,
+				4AF9EB9A273A1C8D001BDF08 /* RotatingAnimationDemoUITests */,
+				4AF9EB78273A1C81001BDF08 /* Products */,
+				801A9786955F682CA6FFBF71 /* Pods */,
+				BC9A91C428003A3E9F25ECC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AF9EB78273A1C81001BDF08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9EB77273A1C81001BDF08 /* RotatingAnimationDemo.app */,
+				4AF9EB8D273A1C8D001BDF08 /* RotatingAnimationDemoTests.xctest */,
+				4AF9EB97273A1C8D001BDF08 /* RotatingAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AF9EB79273A1C81001BDF08 /* RotatingAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9EB7A273A1C81001BDF08 /* AppDelegate.swift */,
+				4AF9EB7C273A1C81001BDF08 /* SceneDelegate.swift */,
+				4AF9EB7E273A1C81001BDF08 /* ViewController.swift */,
+				4AF9EBAA273A1DBC001BDF08 /* RotatingView.swift */,
+				4AF9EBAC273A4B79001BDF08 /* GoalDisplayRotatView.swift */,
+				4AF9EB80273A1C82001BDF08 /* Main.storyboard */,
+				4AF9EB83273A1C8C001BDF08 /* Assets.xcassets */,
+				4AF9EB85273A1C8C001BDF08 /* LaunchScreen.storyboard */,
+				4AF9EB88273A1C8C001BDF08 /* Info.plist */,
+			);
+			path = RotatingAnimationDemo;
+			sourceTree = "<group>";
+		};
+		4AF9EB90273A1C8D001BDF08 /* RotatingAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9EB91273A1C8D001BDF08 /* RotatingAnimationDemoTests.swift */,
+			);
+			path = RotatingAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		4AF9EB9A273A1C8D001BDF08 /* RotatingAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9EB9B273A1C8D001BDF08 /* RotatingAnimationDemoUITests.swift */,
+				4AF9EB9D273A1C8D001BDF08 /* RotatingAnimationDemoUITestsLaunchTests.swift */,
+			);
+			path = RotatingAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		801A9786955F682CA6FFBF71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFC43BD3C3B7A42B600245A7 /* Pods-RotatingAnimationDemo.debug.xcconfig */,
+				0F87D65231B3685732BC1BA2 /* Pods-RotatingAnimationDemo.release.xcconfig */,
+				6F8DADC08B2C6DBA7D701EEF /* Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.debug.xcconfig */,
+				CE9B90799C4646D485DE0275 /* Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.release.xcconfig */,
+				87EA69066BD5C3EB3977CEFB /* Pods-RotatingAnimationDemoTests.debug.xcconfig */,
+				66828BD706171239E703C8E9 /* Pods-RotatingAnimationDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC9A91C428003A3E9F25ECC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB6D6D1D40408B975EE472 /* Pods_RotatingAnimationDemo.framework */,
+				61BEC8936D55F5A303330DAE /* Pods_RotatingAnimationDemo_RotatingAnimationDemoUITests.framework */,
+				371DB91B58C936226907D516 /* Pods_RotatingAnimationDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AF9EB76273A1C81001BDF08 /* RotatingAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF9EBA1273A1C8D001BDF08 /* Build configuration list for PBXNativeTarget "RotatingAnimationDemo" */;
+			buildPhases = (
+				CD600AEB20715390F58D3737 /* [CP] Check Pods Manifest.lock */,
+				4AF9EB73273A1C81001BDF08 /* Sources */,
+				4AF9EB74273A1C81001BDF08 /* Frameworks */,
+				4AF9EB75273A1C81001BDF08 /* Resources */,
+				AEBF6BC4F6134B72AFDF04D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotatingAnimationDemo;
+			productName = RotatingAnimationDemo;
+			productReference = 4AF9EB77273A1C81001BDF08 /* RotatingAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AF9EB8C273A1C8D001BDF08 /* RotatingAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF9EBA4273A1C8D001BDF08 /* Build configuration list for PBXNativeTarget "RotatingAnimationDemoTests" */;
+			buildPhases = (
+				CCE81152EE32E7015037AB92 /* [CP] Check Pods Manifest.lock */,
+				4AF9EB89273A1C8D001BDF08 /* Sources */,
+				4AF9EB8A273A1C8D001BDF08 /* Frameworks */,
+				4AF9EB8B273A1C8D001BDF08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF9EB8F273A1C8D001BDF08 /* PBXTargetDependency */,
+			);
+			name = RotatingAnimationDemoTests;
+			productName = RotatingAnimationDemoTests;
+			productReference = 4AF9EB8D273A1C8D001BDF08 /* RotatingAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AF9EB96273A1C8D001BDF08 /* RotatingAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF9EBA7273A1C8D001BDF08 /* Build configuration list for PBXNativeTarget "RotatingAnimationDemoUITests" */;
+			buildPhases = (
+				F01FE2AF06E88405962A8794 /* [CP] Check Pods Manifest.lock */,
+				4AF9EB93273A1C8D001BDF08 /* Sources */,
+				4AF9EB94273A1C8D001BDF08 /* Frameworks */,
+				4AF9EB95273A1C8D001BDF08 /* Resources */,
+				C4A5C9B5291A60D11B1D3125 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF9EB99273A1C8D001BDF08 /* PBXTargetDependency */,
+			);
+			name = RotatingAnimationDemoUITests;
+			productName = RotatingAnimationDemoUITests;
+			productReference = 4AF9EB97273A1C8D001BDF08 /* RotatingAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AF9EB6F273A1C81001BDF08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4AF9EB76273A1C81001BDF08 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4AF9EB8C273A1C8D001BDF08 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4AF9EB76273A1C81001BDF08;
+					};
+					4AF9EB96273A1C8D001BDF08 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4AF9EB76273A1C81001BDF08;
+					};
+				};
+			};
+			buildConfigurationList = 4AF9EB72273A1C81001BDF08 /* Build configuration list for PBXProject "RotatingAnimationDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AF9EB6E273A1C80001BDF08;
+			productRefGroup = 4AF9EB78273A1C81001BDF08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF9EB76273A1C81001BDF08 /* RotatingAnimationDemo */,
+				4AF9EB8C273A1C8D001BDF08 /* RotatingAnimationDemoTests */,
+				4AF9EB96273A1C8D001BDF08 /* RotatingAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AF9EB75273A1C81001BDF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF9EB87273A1C8C001BDF08 /* LaunchScreen.storyboard in Resources */,
+				4AF9EB84273A1C8C001BDF08 /* Assets.xcassets in Resources */,
+				4AF9EB82273A1C82001BDF08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF9EB8B273A1C8D001BDF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF9EB95273A1C8D001BDF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEBF6BC4F6134B72AFDF04D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RotatingAnimationDemo/Pods-RotatingAnimationDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RotatingAnimationDemo/Pods-RotatingAnimationDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RotatingAnimationDemo/Pods-RotatingAnimationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A5C9B5291A60D11B1D3125 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE81152EE32E7015037AB92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RotatingAnimationDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD600AEB20715390F58D3737 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RotatingAnimationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01FE2AF06E88405962A8794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AF9EB73273A1C81001BDF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF9EBAB273A1DBC001BDF08 /* RotatingView.swift in Sources */,
+				4AF9EBAD273A4B79001BDF08 /* GoalDisplayRotatView.swift in Sources */,
+				4AF9EB7F273A1C81001BDF08 /* ViewController.swift in Sources */,
+				4AF9EB7B273A1C81001BDF08 /* AppDelegate.swift in Sources */,
+				4AF9EB7D273A1C81001BDF08 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF9EB89273A1C8D001BDF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF9EB92273A1C8D001BDF08 /* RotatingAnimationDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF9EB93273A1C8D001BDF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF9EB9E273A1C8D001BDF08 /* RotatingAnimationDemoUITestsLaunchTests.swift in Sources */,
+				4AF9EB9C273A1C8D001BDF08 /* RotatingAnimationDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AF9EB8F273A1C8D001BDF08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF9EB76273A1C81001BDF08 /* RotatingAnimationDemo */;
+			targetProxy = 4AF9EB8E273A1C8D001BDF08 /* PBXContainerItemProxy */;
+		};
+		4AF9EB99273A1C8D001BDF08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF9EB76273A1C81001BDF08 /* RotatingAnimationDemo */;
+			targetProxy = 4AF9EB98273A1C8D001BDF08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AF9EB80273A1C82001BDF08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF9EB81273A1C82001BDF08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF9EB85273A1C8C001BDF08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF9EB86273A1C8C001BDF08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AF9EB9F273A1C8D001BDF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AF9EBA0273A1C8D001BDF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AF9EBA2273A1C8D001BDF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC43BD3C3B7A42B600245A7 /* Pods-RotatingAnimationDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 826VZN67CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RotatingAnimationDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synergy.RotatingAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AF9EBA3273A1C8D001BDF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F87D65231B3685732BC1BA2 /* Pods-RotatingAnimationDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 826VZN67CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RotatingAnimationDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synergy.RotatingAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AF9EBA5273A1C8D001BDF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EA69066BD5C3EB3977CEFB /* Pods-RotatingAnimationDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 826VZN67CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synergy.RotatingAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotatingAnimationDemo.app/RotatingAnimationDemo";
+			};
+			name = Debug;
+		};
+		4AF9EBA6273A1C8D001BDF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66828BD706171239E703C8E9 /* Pods-RotatingAnimationDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 826VZN67CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synergy.RotatingAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotatingAnimationDemo.app/RotatingAnimationDemo";
+			};
+			name = Release;
+		};
+		4AF9EBA8273A1C8D001BDF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8DADC08B2C6DBA7D701EEF /* Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 826VZN67CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synergy.RotatingAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RotatingAnimationDemo;
+			};
+			name = Debug;
+		};
+		4AF9EBA9273A1C8D001BDF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9B90799C4646D485DE0275 /* Pods-RotatingAnimationDemo-RotatingAnimationDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 826VZN67CP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synergy.RotatingAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RotatingAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AF9EB72273A1C81001BDF08 /* Build configuration list for PBXProject "RotatingAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF9EB9F273A1C8D001BDF08 /* Debug */,
+				4AF9EBA0273A1C8D001BDF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF9EBA1273A1C8D001BDF08 /* Build configuration list for PBXNativeTarget "RotatingAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF9EBA2273A1C8D001BDF08 /* Debug */,
+				4AF9EBA3273A1C8D001BDF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF9EBA4273A1C8D001BDF08 /* Build configuration list for PBXNativeTarget "RotatingAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF9EBA5273A1C8D001BDF08 /* Debug */,
+				4AF9EBA6273A1C8D001BDF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF9EBA7273A1C8D001BDF08 /* Build configuration list for PBXNativeTarget "RotatingAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF9EBA8273A1C8D001BDF08 /* Debug */,
+				4AF9EBA9273A1C8D001BDF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AF9EB6F273A1C81001BDF08 /* Project object */;
+}
