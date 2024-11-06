@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1DD2682C6DF3F1009428C2 /* CardScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DD2672C6DF3F1009428C2 /* CardScrollViewController.swift */; };
+		4A1DD26A2C6DF40A009428C2 /* CoverFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DD2692C6DF40A009428C2 /* CoverFlowLayout.swift */; };
+		4A2E22A42C82BC5F0056672D /* SleepChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E22A32C82BC5F0056672D /* SleepChartsViewController.swift */; };
+		4A2E22A62C82BE870056672D /* SleepJointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E22A52C82BE870056672D /* SleepJointView.swift */; };
+		4A2EAF0D2CDA0F66001A17C4 /* HeartRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EAF0C2CDA0F66001A17C4 /* HeartRateViewController.swift */; };
+		4A2EAF0F2CDA0F74001A17C4 /* DrawWareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EAF0E2CDA0F74001A17C4 /* DrawWareView.swift */; };
+		4A3F0FAE2C129C310030AF10 /* ScanAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F0FAD2C129C310030AF10 /* ScanAnimationViewController.swift */; };
+		4A3F0FB02C129C720030AF10 /* ScanAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F0FAF2C129C720030AF10 /* ScanAnimationView.swift */; };
+		4A433E162CC20E53005A47D5 /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A433E152CC20E53005A47D5 /* DownloadOperation.swift */; };
+		4A433E182CC252A3005A47D5 /* OplayerStroyBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A433E172CC252A3005A47D5 /* OplayerStroyBookModel.swift */; };
+		4A433E1A2CC34873005A47D5 /* OplayerMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A433E192CC34873005A47D5 /* OplayerMusicPlayer.swift */; };
+		4A5DEBA32BEF0D60006EE9C3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DEBA22BEF0D60006EE9C3 /* WidgetKit.framework */; };
+		4A5DEBA52BEF0D60006EE9C3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DEBA42BEF0D60006EE9C3 /* SwiftUI.framework */; };
+		4A5DEBB02BEF0D62006EE9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5DEBAF2BEF0D62006EE9C3 /* Assets.xcassets */; };
+		4A5DEBB42BEF0D62006EE9C3 /* WatchWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4A5DEBA12BEF0D60006EE9C3 /* WatchWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4A5DEBBC2BEF0DF5006EE9C3 /* WatchDeliveryAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DEBBA2BEF0DF4006EE9C3 /* WatchDeliveryAttributes.swift */; };
+		4A5DEBBD2BEF0E47006EE9C3 /* WatchDeliveryAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DEBBA2BEF0DF4006EE9C3 /* WatchDeliveryAttributes.swift */; };
+		4A5DEBBE2BEF0E4D006EE9C3 /* WidgetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DEBB92BEF0DF4006EE9C3 /* WidgetDemo.swift */; };
+		4A5DEBBF2BEF0E5F006EE9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9EB83273A1C8C001BDF08 /* Assets.xcassets */; };
+		4A949F632CC1F187008DFD32 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A949F622CC1F187008DFD32 /* StoryViewController.swift */; };
+		4A949F652CC1F38F008DFD32 /* DownLoadTaskTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A949F642CC1F38F008DFD32 /* DownLoadTaskTool.swift */; };
+		4AAA799F2C93F0CE00BB9211 /* AgpsSyncingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA799D2C93F0CE00BB9211 /* AgpsSyncingView.swift */; };
+		4AAA79A02C93F0CE00BB9211 /* AgpsSyncingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AAA799E2C93F0CE00BB9211 /* AgpsSyncingView.xib */; };
+		4AADD5AE2C9EA5AB004A8676 /* LoseWeightRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AADD5AD2C9EA5AB004A8676 /* LoseWeightRateView.swift */; };
+		4AAE3DDD2C89933E00C186C9 /* cities15000.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE3DDC2C89933E00C186C9 /* cities15000.json */; };
+		4ACBB08A2C951AB2006AD7D2 /* GPSBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB0892C951AB2006AD7D2 /* GPSBackView.swift */; };
+		4ACBB09E2C958FB7006AD7D2 /* LockScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB09D2C958FB7006AD7D2 /* LockScrollView.swift */; };
+		4AD5CC9D2B58D570009D59D0 /* SosWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD5CC9C2B58D570009D59D0 /* SosWarningView.swift */; };
 		4AF9EB7B273A1C81001BDF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB7A273A1C81001BDF08 /* AppDelegate.swift */; };
 		4AF9EB7D273A1C81001BDF08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB7C273A1C81001BDF08 /* SceneDelegate.swift */; };
 		4AF9EB7F273A1C81001BDF08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB7E273A1C81001BDF08 /* ViewController.swift */; };
@@ -24,6 +52,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4A5DEBB22BEF0D62006EE9C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF9EB6F273A1C81001BDF08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5DEBA02BEF0D60006EE9C3;
+			remoteInfo = WatchWidgetExtension;
+		};
 		4AF9EB8E273A1C8D001BDF08 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4AF9EB6F273A1C81001BDF08 /* Project object */;
@@ -40,9 +75,52 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4A5DEBB82BEF0D62006EE9C3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4A5DEBB42BEF0D62006EE9C3 /* WatchWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0F87D65231B3685732BC1BA2 /* Pods-RotatingAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotatingAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-RotatingAnimationDemo/Pods-RotatingAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		371DB91B58C936226907D516 /* Pods_RotatingAnimationDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotatingAnimationDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1DD2672C6DF3F1009428C2 /* CardScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScrollViewController.swift; sourceTree = "<group>"; };
+		4A1DD2692C6DF40A009428C2 /* CoverFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowLayout.swift; sourceTree = "<group>"; };
+		4A2E22A32C82BC5F0056672D /* SleepChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepChartsViewController.swift; sourceTree = "<group>"; };
+		4A2E22A52C82BE870056672D /* SleepJointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepJointView.swift; sourceTree = "<group>"; };
+		4A2EAF0C2CDA0F66001A17C4 /* HeartRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateViewController.swift; sourceTree = "<group>"; };
+		4A2EAF0E2CDA0F74001A17C4 /* DrawWareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawWareView.swift; sourceTree = "<group>"; };
+		4A3F0FAD2C129C310030AF10 /* ScanAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAnimationViewController.swift; sourceTree = "<group>"; };
+		4A3F0FAF2C129C720030AF10 /* ScanAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAnimationView.swift; sourceTree = "<group>"; };
+		4A433E152CC20E53005A47D5 /* DownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
+		4A433E172CC252A3005A47D5 /* OplayerStroyBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OplayerStroyBookModel.swift; sourceTree = "<group>"; };
+		4A433E192CC34873005A47D5 /* OplayerMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OplayerMusicPlayer.swift; sourceTree = "<group>"; };
+		4A536D962BEF468C00AF3E3F /* RotatingAnimationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RotatingAnimationDemo.entitlements; sourceTree = "<group>"; };
+		4A536D972BEF469800AF3E3F /* WatchWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WatchWidgetExtension.entitlements; sourceTree = "<group>"; };
+		4A5DEBA12BEF0D60006EE9C3 /* WatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5DEBA22BEF0D60006EE9C3 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4A5DEBA42BEF0D60006EE9C3 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4A5DEBAF2BEF0D62006EE9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A5DEBB12BEF0D62006EE9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5DEBB92BEF0DF4006EE9C3 /* WidgetDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetDemo.swift; sourceTree = "<group>"; };
+		4A5DEBBA2BEF0DF4006EE9C3 /* WatchDeliveryAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchDeliveryAttributes.swift; sourceTree = "<group>"; };
+		4A949F622CC1F187008DFD32 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		4A949F642CC1F38F008DFD32 /* DownLoadTaskTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownLoadTaskTool.swift; sourceTree = "<group>"; };
+		4AAA799D2C93F0CE00BB9211 /* AgpsSyncingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgpsSyncingView.swift; sourceTree = "<group>"; };
+		4AAA799E2C93F0CE00BB9211 /* AgpsSyncingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgpsSyncingView.xib; sourceTree = "<group>"; };
+		4AADD5AD2C9EA5AB004A8676 /* LoseWeightRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightRateView.swift; sourceTree = "<group>"; };
+		4AAE3DDC2C89933E00C186C9 /* cities15000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities15000.json; sourceTree = "<group>"; };
+		4ACBB0892C951AB2006AD7D2 /* GPSBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSBackView.swift; sourceTree = "<group>"; };
+		4ACBB09D2C958FB7006AD7D2 /* LockScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScrollView.swift; sourceTree = "<group>"; };
+		4AD5CC9C2B58D570009D59D0 /* SosWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosWarningView.swift; sourceTree = "<group>"; };
 		4AF9EB77273A1C81001BDF08 /* RotatingAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF9EB7A273A1C81001BDF08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF9EB7C273A1C81001BDF08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +146,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4A5DEB9E2BEF0D60006EE9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5DEBA52BEF0D60006EE9C3 /* SwiftUI.framework in Frameworks */,
+				4A5DEBA32BEF0D60006EE9C3 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF9EB74273A1C81001BDF08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,12 +182,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A2E22A22C82BC440056672D /* SleepCharts */ = {
+			isa = PBXGroup;
+			children = (
+				4A2E22A32C82BC5F0056672D /* SleepChartsViewController.swift */,
+				4A2E22A52C82BE870056672D /* SleepJointView.swift */,
+			);
+			path = SleepCharts;
+			sourceTree = "<group>";
+		};
+		4A2EAF0B2CDA0F51001A17C4 /* HeartRate */ = {
+			isa = PBXGroup;
+			children = (
+				4A2EAF0C2CDA0F66001A17C4 /* HeartRateViewController.swift */,
+				4A2EAF0E2CDA0F74001A17C4 /* DrawWareView.swift */,
+			);
+			path = HeartRate;
+			sourceTree = "<group>";
+		};
+		4A433E142CC20E39005A47D5 /* DownLoadTask */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DownLoadTask;
+			sourceTree = "<group>";
+		};
+		4A5DEBA62BEF0D60006EE9C3 /* WatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4A5DEBBA2BEF0DF4006EE9C3 /* WatchDeliveryAttributes.swift */,
+				4A5DEBB92BEF0DF4006EE9C3 /* WidgetDemo.swift */,
+				4A5DEBAF2BEF0D62006EE9C3 /* Assets.xcassets */,
+				4A5DEBB12BEF0D62006EE9C3 /* Info.plist */,
+			);
+			path = WatchWidget;
+			sourceTree = "<group>";
+		};
+		4A949F612CC1F144008DFD32 /* StoryAndStudyCard */ = {
+			isa = PBXGroup;
+			children = (
+				4A433E152CC20E53005A47D5 /* DownloadOperation.swift */,
+				4A949F642CC1F38F008DFD32 /* DownLoadTaskTool.swift */,
+				4A433E172CC252A3005A47D5 /* OplayerStroyBookModel.swift */,
+				4A433E192CC34873005A47D5 /* OplayerMusicPlayer.swift */,
+				4A949F622CC1F187008DFD32 /* StoryViewController.swift */,
+			);
+			path = StoryAndStudyCard;
+			sourceTree = "<group>";
+		};
 		4AF9EB6E273A1C80001BDF08 = {
 			isa = PBXGroup;
 			children = (
+				4A536D972BEF469800AF3E3F /* WatchWidgetExtension.entitlements */,
 				4AF9EB79273A1C81001BDF08 /* RotatingAnimationDemo */,
 				4AF9EB90273A1C8D001BDF08 /* RotatingAnimationDemoTests */,
 				4AF9EB9A273A1C8D001BDF08 /* RotatingAnimationDemoUITests */,
+				4A5DEBA62BEF0D60006EE9C3 /* WatchWidget */,
 				4AF9EB78273A1C81001BDF08 /* Products */,
 				801A9786955F682CA6FFBF71 /* Pods */,
 				BC9A91C428003A3E9F25ECC4 /* Frameworks */,
@@ -113,6 +250,7 @@
 				4AF9EB77273A1C81001BDF08 /* RotatingAnimationDemo.app */,
 				4AF9EB8D273A1C8D001BDF08 /* RotatingAnimationDemoTests.xctest */,
 				4AF9EB97273A1C8D001BDF08 /* RotatingAnimationDemoUITests.xctest */,
+				4A5DEBA12BEF0D60006EE9C3 /* WatchWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,14 +258,30 @@
 		4AF9EB79273A1C81001BDF08 /* RotatingAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4A2EAF0B2CDA0F51001A17C4 /* HeartRate */,
+				4A536D962BEF468C00AF3E3F /* RotatingAnimationDemo.entitlements */,
 				4AF9EB7A273A1C81001BDF08 /* AppDelegate.swift */,
 				4AF9EB7C273A1C81001BDF08 /* SceneDelegate.swift */,
 				4AF9EB7E273A1C81001BDF08 /* ViewController.swift */,
+				4AAE3DDC2C89933E00C186C9 /* cities15000.json */,
+				4A433E142CC20E39005A47D5 /* DownLoadTask */,
+				4A949F612CC1F144008DFD32 /* StoryAndStudyCard */,
+				4A2E22A22C82BC440056672D /* SleepCharts */,
+				4A3F0FAD2C129C310030AF10 /* ScanAnimationViewController.swift */,
+				4A3F0FAF2C129C720030AF10 /* ScanAnimationView.swift */,
 				4AF9EBAA273A1DBC001BDF08 /* RotatingView.swift */,
+				4AD5CC9C2B58D570009D59D0 /* SosWarningView.swift */,
 				4AF9EBAC273A4B79001BDF08 /* GoalDisplayRotatView.swift */,
+				4A1DD2672C6DF3F1009428C2 /* CardScrollViewController.swift */,
+				4A1DD2692C6DF40A009428C2 /* CoverFlowLayout.swift */,
+				4ACBB0892C951AB2006AD7D2 /* GPSBackView.swift */,
+				4ACBB09D2C958FB7006AD7D2 /* LockScrollView.swift */,
+				4AADD5AD2C9EA5AB004A8676 /* LoseWeightRateView.swift */,
 				4AF9EB80273A1C82001BDF08 /* Main.storyboard */,
 				4AF9EB83273A1C8C001BDF08 /* Assets.xcassets */,
 				4AF9EB85273A1C8C001BDF08 /* LaunchScreen.storyboard */,
+				4AAA799D2C93F0CE00BB9211 /* AgpsSyncingView.swift */,
+				4AAA799E2C93F0CE00BB9211 /* AgpsSyncingView.xib */,
 				4AF9EB88273A1C8C001BDF08 /* Info.plist */,
 			);
 			path = RotatingAnimationDemo;
@@ -160,7 +314,6 @@
 				87EA69066BD5C3EB3977CEFB /* Pods-RotatingAnimationDemoTests.debug.xcconfig */,
 				66828BD706171239E703C8E9 /* Pods-RotatingAnimationDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -170,6 +323,8 @@
 				D9DB6D6D1D40408B975EE472 /* Pods_RotatingAnimationDemo.framework */,
 				61BEC8936D55F5A303330DAE /* Pods_RotatingAnimationDemo_RotatingAnimationDemoUITests.framework */,
 				371DB91B58C936226907D516 /* Pods_RotatingAnimationDemoTests.framework */,
+				4A5DEBA22BEF0D60006EE9C3 /* WidgetKit.framework */,
+				4A5DEBA42BEF0D60006EE9C3 /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,6 +332,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4A5DEBA02BEF0D60006EE9C3 /* WatchWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5DEBB52BEF0D62006EE9C3 /* Build configuration list for PBXNativeTarget "WatchWidgetExtension" */;
+			buildPhases = (
+				4A5DEB9D2BEF0D60006EE9C3 /* Sources */,
+				4A5DEB9E2BEF0D60006EE9C3 /* Frameworks */,
+				4A5DEB9F2BEF0D60006EE9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchWidgetExtension;
+			productName = WatchWidgetExtension;
+			productReference = 4A5DEBA12BEF0D60006EE9C3 /* WatchWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		4AF9EB76273A1C81001BDF08 /* RotatingAnimationDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AF9EBA1273A1C8D001BDF08 /* Build configuration list for PBXNativeTarget "RotatingAnimationDemo" */;
@@ -186,10 +358,12 @@
 				4AF9EB74273A1C81001BDF08 /* Frameworks */,
 				4AF9EB75273A1C81001BDF08 /* Resources */,
 				AEBF6BC4F6134B72AFDF04D5 /* [CP] Embed Pods Frameworks */,
+				4A5DEBB82BEF0D62006EE9C3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4A5DEBB32BEF0D62006EE9C3 /* PBXTargetDependency */,
 			);
 			name = RotatingAnimationDemo;
 			productName = RotatingAnimationDemo;
@@ -242,9 +416,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1310;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					4A5DEBA02BEF0D60006EE9C3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					4AF9EB76273A1C81001BDF08 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -274,11 +451,21 @@
 				4AF9EB76273A1C81001BDF08 /* RotatingAnimationDemo */,
 				4AF9EB8C273A1C8D001BDF08 /* RotatingAnimationDemoTests */,
 				4AF9EB96273A1C8D001BDF08 /* RotatingAnimationDemoUITests */,
+				4A5DEBA02BEF0D60006EE9C3 /* WatchWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4A5DEB9F2BEF0D60006EE9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5DEBBF2BEF0E5F006EE9C3 /* Assets.xcassets in Resources */,
+				4A5DEBB02BEF0D62006EE9C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF9EB75273A1C81001BDF08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -286,6 +473,8 @@
 				4AF9EB87273A1C8C001BDF08 /* LaunchScreen.storyboard in Resources */,
 				4AF9EB84273A1C8C001BDF08 /* Assets.xcassets in Resources */,
 				4AF9EB82273A1C82001BDF08 /* Main.storyboard in Resources */,
+				4AAE3DDD2C89933E00C186C9 /* cities15000.json in Resources */,
+				4AAA79A02C93F0CE00BB9211 /* AgpsSyncingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,15 +598,43 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4A5DEB9D2BEF0D60006EE9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5DEBBE2BEF0E4D006EE9C3 /* WidgetDemo.swift in Sources */,
+				4A5DEBBD2BEF0E47006EE9C3 /* WatchDeliveryAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4AF9EB73273A1C81001BDF08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A433E182CC252A3005A47D5 /* OplayerStroyBookModel.swift in Sources */,
+				4A1DD26A2C6DF40A009428C2 /* CoverFlowLayout.swift in Sources */,
+				4AAA799F2C93F0CE00BB9211 /* AgpsSyncingView.swift in Sources */,
+				4A2EAF0F2CDA0F74001A17C4 /* DrawWareView.swift in Sources */,
+				4ACBB09E2C958FB7006AD7D2 /* LockScrollView.swift in Sources */,
+				4A3F0FB02C129C720030AF10 /* ScanAnimationView.swift in Sources */,
+				4ACBB08A2C951AB2006AD7D2 /* GPSBackView.swift in Sources */,
+				4A3F0FAE2C129C310030AF10 /* ScanAnimationViewController.swift in Sources */,
 				4AF9EBAB273A1DBC001BDF08 /* RotatingView.swift in Sources */,
+				4A1DD2682C6DF3F1009428C2 /* CardScrollViewController.swift in Sources */,
 				4AF9EBAD273A4B79001BDF08 /* GoalDisplayRotatView.swift in Sources */,
+				4A2EAF0D2CDA0F66001A17C4 /* HeartRateViewController.swift in Sources */,
+				4A5DEBBC2BEF0DF5006EE9C3 /* WatchDeliveryAttributes.swift in Sources */,
+				4A2E22A42C82BC5F0056672D /* SleepChartsViewController.swift in Sources */,
 				4AF9EB7F273A1C81001BDF08 /* ViewController.swift in Sources */,
+				4A433E1A2CC34873005A47D5 /* OplayerMusicPlayer.swift in Sources */,
+				4A949F632CC1F187008DFD32 /* StoryViewController.swift in Sources */,
+				4AD5CC9D2B58D570009D59D0 /* SosWarningView.swift in Sources */,
+				4A2E22A62C82BE870056672D /* SleepJointView.swift in Sources */,
+				4A433E162CC20E53005A47D5 /* DownloadOperation.swift in Sources */,
+				4A949F652CC1F38F008DFD32 /* DownLoadTaskTool.swift in Sources */,
 				4AF9EB7B273A1C81001BDF08 /* AppDelegate.swift in Sources */,
 				4AF9EB7D273A1C81001BDF08 /* SceneDelegate.swift in Sources */,
+				4AADD5AE2C9EA5AB004A8676 /* LoseWeightRateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +658,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4A5DEBB32BEF0D62006EE9C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5DEBA02BEF0D60006EE9C3 /* WatchWidgetExtension */;
+			targetProxy = 4A5DEBB22BEF0D62006EE9C3 /* PBXContainerItemProxy */;
+		};
 		4AF9EB8F273A1C8D001BDF08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4AF9EB76273A1C81001BDF08 /* RotatingAnimationDemo */;
@@ -473,6 +695,77 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4A5DEBB62BEF0D62006EE9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = WatchWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 826VZN67CP;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synergy.RotatingAnimationDemo.WatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A5DEBB72BEF0D62006EE9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = WatchWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 826VZN67CP;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synergy.RotatingAnimationDemo.WatchWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		4AF9EB9F273A1C8D001BDF08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -593,18 +886,23 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AFC43BD3C3B7A42B600245A7 /* Pods-RotatingAnimationDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RotatingAnimationDemo/RotatingAnimationDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 826VZN67CP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RotatingAnimationDemo/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -622,18 +920,23 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F87D65231B3685732BC1BA2 /* Pods-RotatingAnimationDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RotatingAnimationDemo/RotatingAnimationDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 826VZN67CP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RotatingAnimationDemo/Info.plist;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -750,6 +1053,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4A5DEBB52BEF0D62006EE9C3 /* Build configuration list for PBXNativeTarget "WatchWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5DEBB62BEF0D62006EE9C3 /* Debug */,
+				4A5DEBB72BEF0D62006EE9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4AF9EB72273A1C81001BDF08 /* Build configuration list for PBXProject "RotatingAnimationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

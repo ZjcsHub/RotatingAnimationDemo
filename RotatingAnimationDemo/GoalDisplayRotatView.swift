@@ -37,11 +37,14 @@ class GoalDisplayRotatView: UIView {
     @objc func viewHaveClick() {
         // 执行动画
         
-        UIView.transition(with: self, duration: 0.5, options: UIView.AnimationOptions.transitionFlipFromLeft) { [self] in
+        
+        let option = self.frontView.isHidden ? UIView.AnimationOptions.transitionFlipFromLeft : UIView.AnimationOptions.transitionFlipFromRight
+        
+        UIView.transition(with: self, duration: 0.5, options: option) { [self] in
             self.frontView.isHidden = !self.frontView.isHidden
             self.backView.isHidden = !self.backView.isHidden
         } completion: { _ in
-            
+
         }
 
         
