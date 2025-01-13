@@ -13,6 +13,7 @@
 		4A2E22A62C82BE870056672D /* SleepJointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E22A52C82BE870056672D /* SleepJointView.swift */; };
 		4A2EAF0D2CDA0F66001A17C4 /* HeartRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EAF0C2CDA0F66001A17C4 /* HeartRateViewController.swift */; };
 		4A2EAF0F2CDA0F74001A17C4 /* DrawWareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EAF0E2CDA0F74001A17C4 /* DrawWareView.swift */; };
+		4A36153B2D27D2BF00B9151B /* SquareStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36153A2D27D2BF00B9151B /* SquareStepView.swift */; };
 		4A3F0FAE2C129C310030AF10 /* ScanAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F0FAD2C129C310030AF10 /* ScanAnimationViewController.swift */; };
 		4A3F0FB02C129C720030AF10 /* ScanAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F0FAF2C129C720030AF10 /* ScanAnimationView.swift */; };
 		4A433E162CC20E53005A47D5 /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A433E152CC20E53005A47D5 /* DownloadOperation.swift */; };
@@ -28,10 +29,13 @@
 		4A5DEBBF2BEF0E5F006EE9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9EB83273A1C8C001BDF08 /* Assets.xcassets */; };
 		4A949F632CC1F187008DFD32 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A949F622CC1F187008DFD32 /* StoryViewController.swift */; };
 		4A949F652CC1F38F008DFD32 /* DownLoadTaskTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A949F642CC1F38F008DFD32 /* DownLoadTaskTool.swift */; };
+		4A9AE9952D1E9CBC00060EDA /* StepCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9AE9942D1E9CBC00060EDA /* StepCycleView.swift */; };
+		4A9AE9972D1EB03200060EDA /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9AE9962D1EB02B00060EDA /* CycleView.swift */; };
 		4AAA799F2C93F0CE00BB9211 /* AgpsSyncingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA799D2C93F0CE00BB9211 /* AgpsSyncingView.swift */; };
 		4AAA79A02C93F0CE00BB9211 /* AgpsSyncingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AAA799E2C93F0CE00BB9211 /* AgpsSyncingView.xib */; };
 		4AADD5AE2C9EA5AB004A8676 /* LoseWeightRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AADD5AD2C9EA5AB004A8676 /* LoseWeightRateView.swift */; };
 		4AAE3DDD2C89933E00C186C9 /* cities15000.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE3DDC2C89933E00C186C9 /* cities15000.json */; };
+		4AAF80E12D22868600633BB4 /* TricolorStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF80E02D22868600633BB4 /* TricolorStepView.swift */; };
 		4ACBB08A2C951AB2006AD7D2 /* GPSBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB0892C951AB2006AD7D2 /* GPSBackView.swift */; };
 		4ACBB09E2C958FB7006AD7D2 /* LockScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB09D2C958FB7006AD7D2 /* LockScrollView.swift */; };
 		4AD5CC9D2B58D570009D59D0 /* SosWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD5CC9C2B58D570009D59D0 /* SosWarningView.swift */; };
@@ -98,6 +102,7 @@
 		4A2E22A52C82BE870056672D /* SleepJointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepJointView.swift; sourceTree = "<group>"; };
 		4A2EAF0C2CDA0F66001A17C4 /* HeartRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateViewController.swift; sourceTree = "<group>"; };
 		4A2EAF0E2CDA0F74001A17C4 /* DrawWareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawWareView.swift; sourceTree = "<group>"; };
+		4A36153A2D27D2BF00B9151B /* SquareStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareStepView.swift; sourceTree = "<group>"; };
 		4A3F0FAD2C129C310030AF10 /* ScanAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAnimationViewController.swift; sourceTree = "<group>"; };
 		4A3F0FAF2C129C720030AF10 /* ScanAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAnimationView.swift; sourceTree = "<group>"; };
 		4A433E152CC20E53005A47D5 /* DownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
@@ -114,10 +119,13 @@
 		4A5DEBBA2BEF0DF4006EE9C3 /* WatchDeliveryAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchDeliveryAttributes.swift; sourceTree = "<group>"; };
 		4A949F622CC1F187008DFD32 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		4A949F642CC1F38F008DFD32 /* DownLoadTaskTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownLoadTaskTool.swift; sourceTree = "<group>"; };
+		4A9AE9942D1E9CBC00060EDA /* StepCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCycleView.swift; sourceTree = "<group>"; };
+		4A9AE9962D1EB02B00060EDA /* CycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
 		4AAA799D2C93F0CE00BB9211 /* AgpsSyncingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgpsSyncingView.swift; sourceTree = "<group>"; };
 		4AAA799E2C93F0CE00BB9211 /* AgpsSyncingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgpsSyncingView.xib; sourceTree = "<group>"; };
 		4AADD5AD2C9EA5AB004A8676 /* LoseWeightRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightRateView.swift; sourceTree = "<group>"; };
 		4AAE3DDC2C89933E00C186C9 /* cities15000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities15000.json; sourceTree = "<group>"; };
+		4AAF80E02D22868600633BB4 /* TricolorStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricolorStepView.swift; sourceTree = "<group>"; };
 		4ACBB0892C951AB2006AD7D2 /* GPSBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSBackView.swift; sourceTree = "<group>"; };
 		4ACBB09D2C958FB7006AD7D2 /* LockScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScrollView.swift; sourceTree = "<group>"; };
 		4AD5CC9C2B58D570009D59D0 /* SosWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosWarningView.swift; sourceTree = "<group>"; };
@@ -269,6 +277,10 @@
 				4A2E22A22C82BC440056672D /* SleepCharts */,
 				4A3F0FAD2C129C310030AF10 /* ScanAnimationViewController.swift */,
 				4A3F0FAF2C129C720030AF10 /* ScanAnimationView.swift */,
+				4A9AE9962D1EB02B00060EDA /* CycleView.swift */,
+				4A9AE9942D1E9CBC00060EDA /* StepCycleView.swift */,
+				4AAF80E02D22868600633BB4 /* TricolorStepView.swift */,
+				4A36153A2D27D2BF00B9151B /* SquareStepView.swift */,
 				4AF9EBAA273A1DBC001BDF08 /* RotatingView.swift */,
 				4AD5CC9C2B58D570009D59D0 /* SosWarningView.swift */,
 				4AF9EBAC273A4B79001BDF08 /* GoalDisplayRotatView.swift */,
@@ -613,6 +625,7 @@
 			files = (
 				4A433E182CC252A3005A47D5 /* OplayerStroyBookModel.swift in Sources */,
 				4A1DD26A2C6DF40A009428C2 /* CoverFlowLayout.swift in Sources */,
+				4AAF80E12D22868600633BB4 /* TricolorStepView.swift in Sources */,
 				4AAA799F2C93F0CE00BB9211 /* AgpsSyncingView.swift in Sources */,
 				4A2EAF0F2CDA0F74001A17C4 /* DrawWareView.swift in Sources */,
 				4ACBB09E2C958FB7006AD7D2 /* LockScrollView.swift in Sources */,
@@ -621,14 +634,17 @@
 				4A3F0FAE2C129C310030AF10 /* ScanAnimationViewController.swift in Sources */,
 				4AF9EBAB273A1DBC001BDF08 /* RotatingView.swift in Sources */,
 				4A1DD2682C6DF3F1009428C2 /* CardScrollViewController.swift in Sources */,
+				4A9AE9972D1EB03200060EDA /* CycleView.swift in Sources */,
 				4AF9EBAD273A4B79001BDF08 /* GoalDisplayRotatView.swift in Sources */,
 				4A2EAF0D2CDA0F66001A17C4 /* HeartRateViewController.swift in Sources */,
 				4A5DEBBC2BEF0DF5006EE9C3 /* WatchDeliveryAttributes.swift in Sources */,
+				4A36153B2D27D2BF00B9151B /* SquareStepView.swift in Sources */,
 				4A2E22A42C82BC5F0056672D /* SleepChartsViewController.swift in Sources */,
 				4AF9EB7F273A1C81001BDF08 /* ViewController.swift in Sources */,
 				4A433E1A2CC34873005A47D5 /* OplayerMusicPlayer.swift in Sources */,
 				4A949F632CC1F187008DFD32 /* StoryViewController.swift in Sources */,
 				4AD5CC9D2B58D570009D59D0 /* SosWarningView.swift in Sources */,
+				4A9AE9952D1E9CBC00060EDA /* StepCycleView.swift in Sources */,
 				4A2E22A62C82BE870056672D /* SleepJointView.swift in Sources */,
 				4A433E162CC20E53005A47D5 /* DownloadOperation.swift in Sources */,
 				4A949F652CC1F38F008DFD32 /* DownLoadTaskTool.swift in Sources */,

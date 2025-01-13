@@ -34,8 +34,7 @@ class ScanAnimationView: UIView {
         self.centerImage = centerImage
         
         drawGradientRings()
-        drawConnectingLine()
-        drawMainImageView()
+      
 
         startAnimation()
     }
@@ -44,43 +43,32 @@ class ScanAnimationView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-   private func drawMainImageView() {
-        
-        // 中间绘制图片
-        let layer = CALayer()
-        layer.contentsScale = 2
-        layer.contentsGravity = .resizeAspect
-        let imageSizeWidthHeight:CGFloat = spaceWidth
-        layer.frame = CGRect(x: (self.bounds.size.width - imageSizeWidthHeight) / 2, y: (self.bounds.size.height - imageSizeWidthHeight) / 2, width: imageSizeWidthHeight, height: imageSizeWidthHeight)
-        layer.contents = self.centerImage?.cgImage
-        self.layer.addSublayer(layer)
-        
-    }
+ 
     
     private func drawGradientRings() {
         // 绘制渐变圆环
         let center = CGPoint(x: self.bounds.size.width / 2 , y: self.bounds.size.height / 2)
         
-        let path = UIBezierPath(arcCenter: center, radius: self.bounds.size.width / 2 - spaceWidth / 2, startAngle: 0, endAngle: Double.pi * 2, clockwise: true)
+       
         // 创建渐变色图层
         let gradientLayer = CAGradientLayer()
-        gradientLayer.frame = CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height / 2)
+        gradientLayer.frame = CGRect(x: 0, y: 0, width: self.bounds.size.width / 2, height: self.bounds.size.height / 2)
         gradientLayer.colors = [lineColor.cgColor,lineColor.withAlphaComponent(0).cgColor]
-        gradientLayer.locations = [0, 0.7,0.4, 1]
+        gradientLayer.locations = [0,  0.5, 1]
         
-        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
-        gradientLayer.endPoint = CGPoint(x: 1, y: 0)
+        gradientLayer.startPoint = CGPoint(x: 1, y: 0)
+        gradientLayer.endPoint = CGPoint(x: 0, y: 1)
         baseLayer.addSublayer(gradientLayer)
         
         // 添加遮罩
+        let path = UIBezierPath(arcCenter: center, radius: self.bounds.size.width / 2, startAngle: Double.pi * 3 / 2 - Double.pi / 12, endAngle: Double.pi * 3 / 2, clockwise: true)
+        path.addLine(to: center)
+        path.close()
         let shapeLayer = CAShapeLayer()
-        shapeLayer.fillColor = UIColor.clear.cgColor
-        shapeLayer.strokeColor = UIColor.white.cgColor
-        shapeLayer.lineWidth = spaceWidth
+        shapeLayer.fillColor = lineColor.cgColor
+        shapeLayer.strokeColor = UIColor.clear.cgColor
         shapeLayer.strokeStart = 0
         shapeLayer.strokeEnd = 1
-        shapeLayer.lineCap = .round
-//        shapeLayer.lineDashPhase = 0.8
         shapeLayer.path = path.cgPath
         gradientLayer.mask = shapeLayer
         
@@ -110,8 +98,8 @@ class ScanAnimationView: UIView {
     private func startAnimation() {
         //动画
         let rotationAnimation = CABasicAnimation(keyPath: "transform.rotation.z")
-        rotationAnimation.fromValue = Double.pi * 2
-        rotationAnimation.toValue = 0
+        rotationAnimation.fromValue = 0
+        rotationAnimation.toValue = Double.pi * 2
         rotationAnimation.repeatCount = Float.infinity
         rotationAnimation.duration = 2
         rotationAnimation.timingFunction = CAMediaTimingFunction(name: .linear)
@@ -126,15 +114,17 @@ class ScanAnimationView: UIView {
             
         let halfPathWidth = rect.size.width / 2
         var drawCount:CGFloat = 0
-        
+        let drawColor = UIColor.lightGray
         while (spaceWidth + lineWidth) * drawCount < halfPathWidth {
-                        
+            
+            
+            
             let outpath = UIBezierPath(arcCenter: center, radius: halfPathWidth - lineWidth / 2 - (drawCount * (spaceWidth)), startAngle: 0, endAngle: Double.pi * 2, clockwise: true)
             outpath.lineWidth = lineWidth
-            UIColor.clear.setFill()
-            lineColor.setStroke()
+            drawColor.withAlphaComponent(0.1+drawCount*0.1).setFill()
+            drawColor.withAlphaComponent(0.1+drawCount*0.1).setStroke()
             outpath.stroke()
-            
+            outpath.fill()
             drawCount += 1
         }
         
