@@ -118,11 +118,115 @@ class ViewController: UIViewController {
 //        self.view.addSubview(weightView)
 //        
         
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 100, width: 200, height: 320))
-        imageView.backgroundColor = .red
-        imageView.image = UIImage(named: "background")
-        self.view.addSubview(imageView)
+//        let imageView = UIImageView(frame: CGRect(x: 0, y: 100, width: 200, height: 320))
+//        imageView.backgroundColor = .red
+//        imageView.image = UIImage(named: "background")
+//        self.view.addSubview(imageView)
+//
+//        
+//        let distanceLieView = MapDistanveLineView(frame: CGRect(x: 0, y: 100, width: 20, height: self.view.bounds.size.width))
+//        distanceLieView.setText("50 km")
+//        distanceLieView.lineColor = .red
+//        distanceLieView.textColor = .red
+//        distanceLieView.orientation = .vertical
+//        self.view.addSubview(distanceLieView)
         
+//        VideoMediaTools.default.readText(text: "今天天气真好")
+//        VideoMediaTools.default.readText(text: "你有什么计划吗")
+//        let cycleColor = CycleView(frame: CGRect(x: 0, y: 100, width: self.view.bounds.size.width, height: self.view.bounds.size.width),startAngle: CGFloat(-Double.pi/2), endAngle: CGFloat(3 * Double.pi/2),lineWidth: 20,drawColor: .white,backDrawColor:UIColor(hex: "E6E6E6"),withShadow: false,backgroundColor: .white,isShowGradient: true)
+//        cycleColor.progress = 1
+//        
+//        self.view.addSubview(cycleColor)
+        
+        // 创建视图
+//        let loadingView = ChatLoadingView(frame: CGRect(x: 0, y: 100, width: self.view.bounds.size.width, height: self.view.bounds.size.height-100))
+//        loadingView.drawColor = .red
+//        self.view.addSubview(loadingView)
+//        loadingView.startWaveAnimation()
+        
+        
+//        let buttonScrollView = ButtonScrollView(frame: CGRect(x: 0, y: 100, width: view.bounds.width, height: 40))
+//        buttonScrollView.titles = ["全部", "图片", "视频", "收藏","小说","武林外传","神雕英系","是客家话框架和健康","第三方","到时候见"]
+//        buttonScrollView.delegate = self
+//        view.addSubview(buttonScrollView)
+//
+//        // 可选：自定义样式
+//        buttonScrollView.defaultBackgroundColor = UIColor.lightGray.withAlphaComponent(0.3)
+//        buttonScrollView.selectedBackgroundColor = UIColor.blue
+        
+        // 使用示例
+        
+  
+        
+       // 使用示例
+//        do {
+//            let encryptionKey = "UV9CRGthZjJJQ3lpaUNrX0tEd3BpQ3dHRmt1Q1FGN2lTM0NSYkVyRTNRUT0="
+//            let encryptedAPIKey = "Z0FBQUFBQm9CY2FWUHFfNjVHN1VxeGZEbF9xTDhyTUFaMzR3RGhINWJhMVVyT0dlUUg5a2t3Mll0azV1TGZkdW1iS0hqUThfSkI5UFhNMF85VllweW12RUl6d05SYzlRR2hmdER3UnV1Z0QwSjNEck5id1EyZFczM1dldzg2QXNRRkxENWt6R3ZwQlM="
+//            
+//            let apiKey = try FernetDecryption.decryptAPIKey(encryptedKey: encryptedAPIKey, encryptionKey: encryptionKey)
+//            print(apiKey)
+//        } catch {
+//            print("解密失败: \(error)")
+//        }
+        
+//        let result = try? FernetDecryption.decryptAES(key: "twtQGEJem655yYTCxfNdE0W5Jkp4nwYB", iv: "RPChQHWmn30HZXep", ciphertext: "1iPpWjEE4An4WOZ8pnpjkRp3msowaYSOclMpWe/0/c0bLPniW8r3keXVrZYck1Or")
+//        print("解密:\(String(describing: result))")
+//        
+        /*
+        // 创建视图
+        let musicControlView = MusicControlView(frame: CGRect(x: 0, y: 100, width: self.view.bounds.size.width, height: 100))
+
+        // 设置音频文件
+        if let audioURL = Bundle.main.url(forResource: "player1_music", withExtension: "mp3") {
+            musicControlView.setAudioFile(url: audioURL, complete: { musicView in
+
+                musicView.play()
+                
+            })
+        }
+
+//        // 控制播放
+//        musicControlView.play()  // 开始播放
+        self.view.addSubview(musicControlView)
+         */
+//        let button = UIButton(type: .custom)
+//        button.setTitle("连接wifi", for: .normal)
+//        button.setTitleColor(.black, for: .normal)
+//        button.frame = CGRect(x: 0, y: 20, width: 200, height: 50)
+//        button.addTarget(self, action: #selector(connectWifi), for: .touchUpInside)
+//        self.view.addSubview(button)
+//        
+//        
+//        let disconnect = UIButton(type: .custom)
+//        disconnect.setTitle("断开wifi", for: .normal)
+//        disconnect.setTitleColor(.black, for: .normal)
+//        disconnect.frame = CGRect(x: 0, y: 100, width: 200, height: 50)
+//        disconnect.addTarget(self, action: #selector(disconectWifi), for: .touchUpInside)
+//        self.view.addSubview(disconnect)
+        
+        
+//        let batteryView = BatteryView(frame: CGRect(x: 50, y: 200, width: 60, height: 30),lineWidth: 2,cornerRadius: 5,headWidth: 5)
+//        batteryView.batteryLevel = 1 // 设置电量
+//        view.addSubview(batteryView)
+//
+//        let glassView = GlassesView(frame: CGRect(x: 0, y: 100, width: self.view.bounds.size.width, height: 300))
+//        self.view.addSubview(glassView)
+//        
+      
+        
+        let animationView = AnimationChangeView(frame: CGRect(x: 0, y: 100, width: self.view.bounds.size.width, height: 300))
+        
+        self.view.addSubview(animationView)
+    }
+    
+    @objc func connectWifi() {
+        ConnectWifiTool.connectToWiFi(ssid: "keats", password: "keatibby") { success, error in
+            print("连接wifi :\(success),error:\(error)")
+        }
+    }
+    
+    @objc func disconectWifi() {
+        ConnectWifiTool.disconnectWiFi(ssid: "keats")
     }
 
     @objc func start() {
@@ -192,3 +296,10 @@ class ViewController: UIViewController {
 
 }
 
+@available(iOS 16.1, *)
+extension ViewController: ButtonScrollViewDelegate {
+    func buttonScrollView(_ scrollView: ButtonScrollView, didSelectButtonAt index: Int) {
+        print("选中了按钮: \(index)")
+        // 处理按钮点击事件
+    }
+}

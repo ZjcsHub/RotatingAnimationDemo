@@ -7,6 +7,9 @@ target 'RotatingAnimationDemo' do
 
   # Pods for RotatingAnimationDemo
 pod 'SnapKit'
+pod 'CryptoSwift'
+pod 'ffmpeg-kit-ios-full', :podspec => 'https://raw.githubusercontent.com/luthviar/ffmpeg-kit-ios-full/main/ffmpeg-kit-ios-full.podspec'
+
   target 'RotatingAnimationDemoTests' do
     inherit! :search_paths
     # Pods for testing

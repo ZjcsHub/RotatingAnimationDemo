@@ -1,16 +1,27 @@
 PODS:
+  - CryptoSwift (1.8.4)
+  - ffmpeg-kit-ios-full (6.0)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
+  - CryptoSwift
+  - ffmpeg-kit-ios-full (from `https://raw.githubusercontent.com/luthviar/ffmpeg-kit-ios-full/main/ffmpeg-kit-ios-full.podspec`)
   - SnapKit
 
 SPEC REPOS:
   trunk:
+    - CryptoSwift
     - SnapKit
 
+EXTERNAL SOURCES:
+  ffmpeg-kit-ios-full:
+    :podspec: https://raw.githubusercontent.com/luthviar/ffmpeg-kit-ios-full/main/ffmpeg-kit-ios-full.podspec
+
 SPEC CHECKSUMS:
+  CryptoSwift: e64e11850ede528a02a0f3e768cec8e9d92ecb90
+  ffmpeg-kit-ios-full: 2da77324b0e9fb007195ab6661f64be4cf31dc12
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 035b680c62e6ed245b198be2edfce2b28f1e1cdf
+PODFILE CHECKSUM: b168e37ae980e7d56eef18613cbbefdcaaf246c6
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.16.2

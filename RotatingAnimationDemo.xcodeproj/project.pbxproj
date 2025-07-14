@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0555792D8D63C900B9F529 /* ChatLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0555782D8D63C900B9F529 /* ChatLoadingView.swift */; };
+		4A0E97CB2D755CC2006CBA12 /* SleepDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0E97CA2D755CC2006CBA12 /* SleepDrawView.swift */; };
+		4A0E97CD2D755F2A006CBA12 /* BloodPressureDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0E97CC2D755F2A006CBA12 /* BloodPressureDrawView.swift */; };
 		4A1DD2682C6DF3F1009428C2 /* CardScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DD2672C6DF3F1009428C2 /* CardScrollViewController.swift */; };
 		4A1DD26A2C6DF40A009428C2 /* CoverFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1DD2692C6DF40A009428C2 /* CoverFlowLayout.swift */; };
 		4A2E22A42C82BC5F0056672D /* SleepChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E22A32C82BC5F0056672D /* SleepChartsViewController.swift */; };
 		4A2E22A62C82BE870056672D /* SleepJointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2E22A52C82BE870056672D /* SleepJointView.swift */; };
 		4A2EAF0D2CDA0F66001A17C4 /* HeartRateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EAF0C2CDA0F66001A17C4 /* HeartRateViewController.swift */; };
 		4A2EAF0F2CDA0F74001A17C4 /* DrawWareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2EAF0E2CDA0F74001A17C4 /* DrawWareView.swift */; };
+		4A34AB112D841E4300D6D828 /* MapDistanveLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A34AB102D841E4300D6D828 /* MapDistanveLineView.swift */; };
 		4A36153B2D27D2BF00B9151B /* SquareStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36153A2D27D2BF00B9151B /* SquareStepView.swift */; };
 		4A3F0FAE2C129C310030AF10 /* ScanAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F0FAD2C129C310030AF10 /* ScanAnimationViewController.swift */; };
 		4A3F0FB02C129C720030AF10 /* ScanAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F0FAF2C129C720030AF10 /* ScanAnimationView.swift */; };
+		4A3F430C2DF6E7FF002770CB /* WechatOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3F430B2DF6E7FF002770CB /* WechatOpenSDK.framework */; };
+		4A3F430E2DF6E819002770CB /* WeChatPayTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F430D2DF6E819002770CB /* WeChatPayTool.swift */; };
 		4A433E162CC20E53005A47D5 /* DownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A433E152CC20E53005A47D5 /* DownloadOperation.swift */; };
 		4A433E182CC252A3005A47D5 /* OplayerStroyBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A433E172CC252A3005A47D5 /* OplayerStroyBookModel.swift */; };
 		4A433E1A2CC34873005A47D5 /* OplayerMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A433E192CC34873005A47D5 /* OplayerMusicPlayer.swift */; };
+		4A4CD5062E01619100FFE4DD /* TsMdeiaTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CD5052E01619100FFE4DD /* TsMdeiaTool.swift */; };
+		4A4CD50B2E01658300FFE4DD /* 19700101_020949_1920x1080.ts in Sources */ = {isa = PBXBuildFile; fileRef = 4A4CD50A2E01655D00FFE4DD /* 19700101_020949_1920x1080.ts */; };
+		4A5048BC2D87C50D001CCE7A /* VideoMediaTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5048BB2D87C50D001CCE7A /* VideoMediaTools.swift */; };
 		4A5DEBA32BEF0D60006EE9C3 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DEBA22BEF0D60006EE9C3 /* WidgetKit.framework */; };
 		4A5DEBA52BEF0D60006EE9C3 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DEBA42BEF0D60006EE9C3 /* SwiftUI.framework */; };
 		4A5DEBB02BEF0D62006EE9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5DEBAF2BEF0D62006EE9C3 /* Assets.xcassets */; };
@@ -27,18 +36,29 @@
 		4A5DEBBD2BEF0E47006EE9C3 /* WatchDeliveryAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DEBBA2BEF0DF4006EE9C3 /* WatchDeliveryAttributes.swift */; };
 		4A5DEBBE2BEF0E4D006EE9C3 /* WidgetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5DEBB92BEF0DF4006EE9C3 /* WidgetDemo.swift */; };
 		4A5DEBBF2BEF0E5F006EE9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF9EB83273A1C8C001BDF08 /* Assets.xcassets */; };
+		4A6C7F1F2DB5F91E00DA8822 /* FernetDecryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7F1E2DB5F91E00DA8822 /* FernetDecryption.swift */; };
+		4A72AD022E0E53DA00A346FB /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A72AD012E0E53DA00A346FB /* BatteryView.swift */; };
+		4A76B62B2E1B7B1500549AA9 /* AnimationChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A76B62A2E1B7B1400549AA9 /* AnimationChangeView.swift */; };
+		4A808F6B2D8D518C0087594F /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A808F6A2D8D518C0087594F /* CycleView.swift */; };
 		4A949F632CC1F187008DFD32 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A949F622CC1F187008DFD32 /* StoryViewController.swift */; };
 		4A949F652CC1F38F008DFD32 /* DownLoadTaskTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A949F642CC1F38F008DFD32 /* DownLoadTaskTool.swift */; };
+		4A96B2652E14F9E600B5E2E2 /* glasses.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4A96B2642E14F9E600B5E2E2 /* glasses.usdz */; };
+		4A96B2672E14FA0F00B5E2E2 /* GlassesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A96B2662E14FA0F00B5E2E2 /* GlassesView.swift */; };
 		4A9AE9952D1E9CBC00060EDA /* StepCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9AE9942D1E9CBC00060EDA /* StepCycleView.swift */; };
-		4A9AE9972D1EB03200060EDA /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9AE9962D1EB02B00060EDA /* CycleView.swift */; };
 		4AAA799F2C93F0CE00BB9211 /* AgpsSyncingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA799D2C93F0CE00BB9211 /* AgpsSyncingView.swift */; };
 		4AAA79A02C93F0CE00BB9211 /* AgpsSyncingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AAA799E2C93F0CE00BB9211 /* AgpsSyncingView.xib */; };
 		4AADD5AE2C9EA5AB004A8676 /* LoseWeightRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AADD5AD2C9EA5AB004A8676 /* LoseWeightRateView.swift */; };
 		4AAE3DDD2C89933E00C186C9 /* cities15000.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AAE3DDC2C89933E00C186C9 /* cities15000.json */; };
 		4AAF80E12D22868600633BB4 /* TricolorStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAF80E02D22868600633BB4 /* TricolorStepView.swift */; };
+		4AB4764D2DE41C71000F73B8 /* MusicControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4764C2DE41C71000F73B8 /* MusicControlView.swift */; };
+		4AB4764F2DE41CB5000F73B8 /* player1_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AB4764E2DE41CB5000F73B8 /* player1_music.mp3 */; };
+		4AB476512DE45C5F000F73B8 /* libai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4AB476502DE45C5F000F73B8 /* libai.mp3 */; };
+		4AB4808D2DF025F1000F73B8 /* ConnectWifiTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4808C2DF025F1000F73B8 /* ConnectWifiTool.swift */; };
 		4ACBB08A2C951AB2006AD7D2 /* GPSBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB0892C951AB2006AD7D2 /* GPSBackView.swift */; };
 		4ACBB09E2C958FB7006AD7D2 /* LockScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACBB09D2C958FB7006AD7D2 /* LockScrollView.swift */; };
 		4AD5CC9D2B58D570009D59D0 /* SosWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD5CC9C2B58D570009D59D0 /* SosWarningView.swift */; };
+		4AE3C6992DB0EA2600514926 /* ButtonScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE3C6982DB0EA2600514926 /* ButtonScrollView.swift */; };
+		4AEEFFE92E068FC100A572BF /* OpusToOggAudioTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEEFFE82E068FC100A572BF /* OpusToOggAudioTool.swift */; };
 		4AF9EB7B273A1C81001BDF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB7A273A1C81001BDF08 /* AppDelegate.swift */; };
 		4AF9EB7D273A1C81001BDF08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB7C273A1C81001BDF08 /* SceneDelegate.swift */; };
 		4AF9EB7F273A1C81001BDF08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF9EB7E273A1C81001BDF08 /* ViewController.swift */; };
@@ -96,18 +116,27 @@
 /* Begin PBXFileReference section */
 		0F87D65231B3685732BC1BA2 /* Pods-RotatingAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RotatingAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-RotatingAnimationDemo/Pods-RotatingAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		371DB91B58C936226907D516 /* Pods_RotatingAnimationDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RotatingAnimationDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A0555782D8D63C900B9F529 /* ChatLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLoadingView.swift; sourceTree = "<group>"; };
+		4A0E97CA2D755CC2006CBA12 /* SleepDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDrawView.swift; sourceTree = "<group>"; };
+		4A0E97CC2D755F2A006CBA12 /* BloodPressureDrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureDrawView.swift; sourceTree = "<group>"; };
 		4A1DD2672C6DF3F1009428C2 /* CardScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScrollViewController.swift; sourceTree = "<group>"; };
 		4A1DD2692C6DF40A009428C2 /* CoverFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverFlowLayout.swift; sourceTree = "<group>"; };
 		4A2E22A32C82BC5F0056672D /* SleepChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepChartsViewController.swift; sourceTree = "<group>"; };
 		4A2E22A52C82BE870056672D /* SleepJointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepJointView.swift; sourceTree = "<group>"; };
 		4A2EAF0C2CDA0F66001A17C4 /* HeartRateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateViewController.swift; sourceTree = "<group>"; };
 		4A2EAF0E2CDA0F74001A17C4 /* DrawWareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawWareView.swift; sourceTree = "<group>"; };
+		4A34AB102D841E4300D6D828 /* MapDistanveLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDistanveLineView.swift; sourceTree = "<group>"; };
 		4A36153A2D27D2BF00B9151B /* SquareStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareStepView.swift; sourceTree = "<group>"; };
 		4A3F0FAD2C129C310030AF10 /* ScanAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAnimationViewController.swift; sourceTree = "<group>"; };
 		4A3F0FAF2C129C720030AF10 /* ScanAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanAnimationView.swift; sourceTree = "<group>"; };
+		4A3F430B2DF6E7FF002770CB /* WechatOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WechatOpenSDK.framework; sourceTree = "<group>"; };
+		4A3F430D2DF6E819002770CB /* WeChatPayTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatPayTool.swift; sourceTree = "<group>"; };
 		4A433E152CC20E53005A47D5 /* DownloadOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperation.swift; sourceTree = "<group>"; };
 		4A433E172CC252A3005A47D5 /* OplayerStroyBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OplayerStroyBookModel.swift; sourceTree = "<group>"; };
 		4A433E192CC34873005A47D5 /* OplayerMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OplayerMusicPlayer.swift; sourceTree = "<group>"; };
+		4A4CD5052E01619100FFE4DD /* TsMdeiaTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TsMdeiaTool.swift; sourceTree = "<group>"; };
+		4A4CD50A2E01655D00FFE4DD /* 19700101_020949_1920x1080.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = 19700101_020949_1920x1080.ts; sourceTree = "<group>"; };
+		4A5048BB2D87C50D001CCE7A /* VideoMediaTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMediaTools.swift; sourceTree = "<group>"; };
 		4A536D962BEF468C00AF3E3F /* RotatingAnimationDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RotatingAnimationDemo.entitlements; sourceTree = "<group>"; };
 		4A536D972BEF469800AF3E3F /* WatchWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WatchWidgetExtension.entitlements; sourceTree = "<group>"; };
 		4A5DEBA12BEF0D60006EE9C3 /* WatchWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,8 +146,14 @@
 		4A5DEBB12BEF0D62006EE9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A5DEBB92BEF0DF4006EE9C3 /* WidgetDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidgetDemo.swift; sourceTree = "<group>"; };
 		4A5DEBBA2BEF0DF4006EE9C3 /* WatchDeliveryAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchDeliveryAttributes.swift; sourceTree = "<group>"; };
+		4A6C7F1E2DB5F91E00DA8822 /* FernetDecryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FernetDecryption.swift; sourceTree = "<group>"; };
+		4A72AD012E0E53DA00A346FB /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
+		4A76B62A2E1B7B1400549AA9 /* AnimationChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationChangeView.swift; sourceTree = "<group>"; };
+		4A808F6A2D8D518C0087594F /* CycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
 		4A949F622CC1F187008DFD32 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		4A949F642CC1F38F008DFD32 /* DownLoadTaskTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownLoadTaskTool.swift; sourceTree = "<group>"; };
+		4A96B2642E14F9E600B5E2E2 /* glasses.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = glasses.usdz; sourceTree = "<group>"; };
+		4A96B2662E14FA0F00B5E2E2 /* GlassesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesView.swift; sourceTree = "<group>"; };
 		4A9AE9942D1E9CBC00060EDA /* StepCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCycleView.swift; sourceTree = "<group>"; };
 		4A9AE9962D1EB02B00060EDA /* CycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
 		4AAA799D2C93F0CE00BB9211 /* AgpsSyncingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgpsSyncingView.swift; sourceTree = "<group>"; };
@@ -126,9 +161,15 @@
 		4AADD5AD2C9EA5AB004A8676 /* LoseWeightRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWeightRateView.swift; sourceTree = "<group>"; };
 		4AAE3DDC2C89933E00C186C9 /* cities15000.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities15000.json; sourceTree = "<group>"; };
 		4AAF80E02D22868600633BB4 /* TricolorStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricolorStepView.swift; sourceTree = "<group>"; };
+		4AB4764C2DE41C71000F73B8 /* MusicControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicControlView.swift; sourceTree = "<group>"; };
+		4AB4764E2DE41CB5000F73B8 /* player1_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = player1_music.mp3; sourceTree = "<group>"; };
+		4AB476502DE45C5F000F73B8 /* libai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = libai.mp3; sourceTree = "<group>"; };
+		4AB4808C2DF025F1000F73B8 /* ConnectWifiTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectWifiTool.swift; sourceTree = "<group>"; };
 		4ACBB0892C951AB2006AD7D2 /* GPSBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSBackView.swift; sourceTree = "<group>"; };
 		4ACBB09D2C958FB7006AD7D2 /* LockScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScrollView.swift; sourceTree = "<group>"; };
 		4AD5CC9C2B58D570009D59D0 /* SosWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SosWarningView.swift; sourceTree = "<group>"; };
+		4AE3C6982DB0EA2600514926 /* ButtonScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonScrollView.swift; sourceTree = "<group>"; };
+		4AEEFFE82E068FC100A572BF /* OpusToOggAudioTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpusToOggAudioTool.swift; sourceTree = "<group>"; };
 		4AF9EB77273A1C81001BDF08 /* RotatingAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotatingAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF9EB7A273A1C81001BDF08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AF9EB7C273A1C81001BDF08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				752DB13BAC2A993DD8D2332C /* Pods_RotatingAnimationDemo.framework in Frameworks */,
+				4A3F430C2DF6E7FF002770CB /* WechatOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +232,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A0E97C92D755CAD006CBA12 /* Zrun */ = {
+			isa = PBXGroup;
+			children = (
+				4A808F6A2D8D518C0087594F /* CycleView.swift */,
+				4A0555782D8D63C900B9F529 /* ChatLoadingView.swift */,
+				4A0E97CA2D755CC2006CBA12 /* SleepDrawView.swift */,
+				4A0E97CC2D755F2A006CBA12 /* BloodPressureDrawView.swift */,
+			);
+			path = Zrun;
+			sourceTree = "<group>";
+		};
 		4A2E22A22C82BC440056672D /* SleepCharts */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,16 +319,23 @@
 		4AF9EB79273A1C81001BDF08 /* RotatingAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4A4CD50A2E01655D00FFE4DD /* 19700101_020949_1920x1080.ts */,
+				4A3F430B2DF6E7FF002770CB /* WechatOpenSDK.framework */,
 				4A2EAF0B2CDA0F51001A17C4 /* HeartRate */,
 				4A536D962BEF468C00AF3E3F /* RotatingAnimationDemo.entitlements */,
 				4AF9EB7A273A1C81001BDF08 /* AppDelegate.swift */,
 				4AF9EB7C273A1C81001BDF08 /* SceneDelegate.swift */,
 				4AF9EB7E273A1C81001BDF08 /* ViewController.swift */,
+				4A96B2642E14F9E600B5E2E2 /* glasses.usdz */,
 				4AAE3DDC2C89933E00C186C9 /* cities15000.json */,
+				4A5048BB2D87C50D001CCE7A /* VideoMediaTools.swift */,
 				4A433E142CC20E39005A47D5 /* DownLoadTask */,
 				4A949F612CC1F144008DFD32 /* StoryAndStudyCard */,
 				4A2E22A22C82BC440056672D /* SleepCharts */,
 				4A3F0FAD2C129C310030AF10 /* ScanAnimationViewController.swift */,
+				4A96B2662E14FA0F00B5E2E2 /* GlassesView.swift */,
+				4A34AB102D841E4300D6D828 /* MapDistanveLineView.swift */,
+				4A76B62A2E1B7B1400549AA9 /* AnimationChangeView.swift */,
 				4A3F0FAF2C129C720030AF10 /* ScanAnimationView.swift */,
 				4A9AE9962D1EB02B00060EDA /* CycleView.swift */,
 				4A9AE9942D1E9CBC00060EDA /* StepCycleView.swift */,
@@ -289,6 +349,17 @@
 				4ACBB0892C951AB2006AD7D2 /* GPSBackView.swift */,
 				4ACBB09D2C958FB7006AD7D2 /* LockScrollView.swift */,
 				4AADD5AD2C9EA5AB004A8676 /* LoseWeightRateView.swift */,
+				4AE3C6982DB0EA2600514926 /* ButtonScrollView.swift */,
+				4A6C7F1E2DB5F91E00DA8822 /* FernetDecryption.swift */,
+				4AB4764C2DE41C71000F73B8 /* MusicControlView.swift */,
+				4AB4764E2DE41CB5000F73B8 /* player1_music.mp3 */,
+				4AB476502DE45C5F000F73B8 /* libai.mp3 */,
+				4AB4808C2DF025F1000F73B8 /* ConnectWifiTool.swift */,
+				4A3F430D2DF6E819002770CB /* WeChatPayTool.swift */,
+				4A4CD5052E01619100FFE4DD /* TsMdeiaTool.swift */,
+				4AEEFFE82E068FC100A572BF /* OpusToOggAudioTool.swift */,
+				4A72AD012E0E53DA00A346FB /* BatteryView.swift */,
+				4A0E97C92D755CAD006CBA12 /* Zrun */,
 				4AF9EB80273A1C82001BDF08 /* Main.storyboard */,
 				4AF9EB83273A1C8C001BDF08 /* Assets.xcassets */,
 				4AF9EB85273A1C8C001BDF08 /* LaunchScreen.storyboard */,
@@ -484,8 +555,11 @@
 			files = (
 				4AF9EB87273A1C8C001BDF08 /* LaunchScreen.storyboard in Resources */,
 				4AF9EB84273A1C8C001BDF08 /* Assets.xcassets in Resources */,
+				4A96B2652E14F9E600B5E2E2 /* glasses.usdz in Resources */,
 				4AF9EB82273A1C82001BDF08 /* Main.storyboard in Resources */,
+				4AB4764F2DE41CB5000F73B8 /* player1_music.mp3 in Resources */,
 				4AAE3DDD2C89933E00C186C9 /* cities15000.json in Resources */,
+				4AB476512DE45C5F000F73B8 /* libai.mp3 in Resources */,
 				4AAA79A02C93F0CE00BB9211 /* AgpsSyncingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,6 +697,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A96B2672E14FA0F00B5E2E2 /* GlassesView.swift in Sources */,
+				4A72AD022E0E53DA00A346FB /* BatteryView.swift in Sources */,
+				4A4CD50B2E01658300FFE4DD /* 19700101_020949_1920x1080.ts in Sources */,
 				4A433E182CC252A3005A47D5 /* OplayerStroyBookModel.swift in Sources */,
 				4A1DD26A2C6DF40A009428C2 /* CoverFlowLayout.swift in Sources */,
 				4AAF80E12D22868600633BB4 /* TricolorStepView.swift in Sources */,
@@ -630,27 +707,40 @@
 				4A2EAF0F2CDA0F74001A17C4 /* DrawWareView.swift in Sources */,
 				4ACBB09E2C958FB7006AD7D2 /* LockScrollView.swift in Sources */,
 				4A3F0FB02C129C720030AF10 /* ScanAnimationView.swift in Sources */,
+				4A0555792D8D63C900B9F529 /* ChatLoadingView.swift in Sources */,
 				4ACBB08A2C951AB2006AD7D2 /* GPSBackView.swift in Sources */,
+				4AEEFFE92E068FC100A572BF /* OpusToOggAudioTool.swift in Sources */,
 				4A3F0FAE2C129C310030AF10 /* ScanAnimationViewController.swift in Sources */,
 				4AF9EBAB273A1DBC001BDF08 /* RotatingView.swift in Sources */,
 				4A1DD2682C6DF3F1009428C2 /* CardScrollViewController.swift in Sources */,
-				4A9AE9972D1EB03200060EDA /* CycleView.swift in Sources */,
 				4AF9EBAD273A4B79001BDF08 /* GoalDisplayRotatView.swift in Sources */,
 				4A2EAF0D2CDA0F66001A17C4 /* HeartRateViewController.swift in Sources */,
+				4A0E97CD2D755F2A006CBA12 /* BloodPressureDrawView.swift in Sources */,
 				4A5DEBBC2BEF0DF5006EE9C3 /* WatchDeliveryAttributes.swift in Sources */,
+				4AB4808D2DF025F1000F73B8 /* ConnectWifiTool.swift in Sources */,
+				4A6C7F1F2DB5F91E00DA8822 /* FernetDecryption.swift in Sources */,
 				4A36153B2D27D2BF00B9151B /* SquareStepView.swift in Sources */,
 				4A2E22A42C82BC5F0056672D /* SleepChartsViewController.swift in Sources */,
 				4AF9EB7F273A1C81001BDF08 /* ViewController.swift in Sources */,
 				4A433E1A2CC34873005A47D5 /* OplayerMusicPlayer.swift in Sources */,
+				4A4CD5062E01619100FFE4DD /* TsMdeiaTool.swift in Sources */,
+				4A3F430E2DF6E819002770CB /* WeChatPayTool.swift in Sources */,
 				4A949F632CC1F187008DFD32 /* StoryViewController.swift in Sources */,
+				4AB4764D2DE41C71000F73B8 /* MusicControlView.swift in Sources */,
 				4AD5CC9D2B58D570009D59D0 /* SosWarningView.swift in Sources */,
+				4A808F6B2D8D518C0087594F /* CycleView.swift in Sources */,
 				4A9AE9952D1E9CBC00060EDA /* StepCycleView.swift in Sources */,
 				4A2E22A62C82BE870056672D /* SleepJointView.swift in Sources */,
+				4A5048BC2D87C50D001CCE7A /* VideoMediaTools.swift in Sources */,
 				4A433E162CC20E53005A47D5 /* DownloadOperation.swift in Sources */,
 				4A949F652CC1F38F008DFD32 /* DownLoadTaskTool.swift in Sources */,
 				4AF9EB7B273A1C81001BDF08 /* AppDelegate.swift in Sources */,
 				4AF9EB7D273A1C81001BDF08 /* SceneDelegate.swift in Sources */,
 				4AADD5AE2C9EA5AB004A8676 /* LoseWeightRateView.swift in Sources */,
+				4AE3C6992DB0EA2600514926 /* ButtonScrollView.swift in Sources */,
+				4A76B62B2E1B7B1500549AA9 /* AnimationChangeView.swift in Sources */,
+				4A0E97CB2D755CC2006CBA12 /* SleepDrawView.swift in Sources */,
+				4A34AB112D841E4300D6D828 /* MapDistanveLineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -909,6 +999,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 826VZN67CP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RotatingAnimationDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RotatingAnimationDemo/Info.plist;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
@@ -943,6 +1037,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 826VZN67CP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RotatingAnimationDemo",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RotatingAnimationDemo/Info.plist;
 				INFOPLIST_KEY_NSSupportsLiveActivities = YES;

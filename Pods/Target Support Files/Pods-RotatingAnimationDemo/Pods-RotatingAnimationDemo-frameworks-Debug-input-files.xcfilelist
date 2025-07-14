@@ -1,2 +1,11 @@
 ${PODS_ROOT}/Target Support Files/Pods-RotatingAnimationDemo/Pods-RotatingAnimationDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ffmpeg-kit-ios-full/ffmpegkit.framework/ffmpegkit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ffmpeg-kit-ios-full/libavcodec.framework/libavcodec
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ffmpeg-kit-ios-full/libavdevice.framework/libavdevice
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ffmpeg-kit-ios-full/libavfilter.framework/libavfilter
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ffmpeg-kit-ios-full/libavformat.framework/libavformat
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ffmpeg-kit-ios-full/libavutil.framework/libavutil
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ffmpeg-kit-ios-full/libswresample.framework/libswresample
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ffmpeg-kit-ios-full/libswscale.framework/libswscale

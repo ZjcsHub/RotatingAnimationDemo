@@ -28,5 +28,7 @@
 		<string>processing</string>
 		<string>remote-notification</string>
 	</array>
+	<key>NSNetworkVolumesUsageDescription</key>
+	<string>使用网络连接功能呢</string>
 </dict>
 </plist>
